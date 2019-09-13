@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ICU Record</title>
+</head>
+<body>
+	<form action="addpatient" method="get">
+		Id: 	<input name="patientId"> <br><br>
+		Name: 	<input name="name"> <br><br>
+		Age: 	<input name="age"> <br><br>
+		Gender: 	<input name="gender"> <br><br>
+		Alloted bed: 	<input name="bedId"> <br><br> 
+		<input type="submit" value = "Add patient">
+	</form>
+	<br>
+	<br>
+	<form action="dischargepatient" method="get">
+		Id: 	<input name="patientId"> <br><br>
+		<input type="submit" value = "Discharge patient">
+	</form>
+	<form action="updatebeddetails">
+		Number of beds available: 	<input name="num_beds"> <br><br>	
+	</form>
+	<br>
+	<br>
+	<a href = "patientrecords">View patient records</a>
+</body>
+</html>
